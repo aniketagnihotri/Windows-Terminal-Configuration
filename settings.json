@@ -1,171 +1,170 @@
-// Aniket Agnihotri, May 30, 2020
+// Aniket Agnihotri, February 28, 2021
 // For documentation on these settings, see: https://aka.ms/terminal-documentation
 
 {
     "$schema": "https://aka.ms/terminal-profiles-schema",
 
-    "defaultProfile": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
+    "defaultProfile": "{00000000-0000-0000-ba54-000000000002}",
 
     "profiles": [
 	{
-        	"guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
-            	"name": "Windows PowerShell",
-            	"commandline": "powershell.exe",
+		"guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
+		"name": "Windows PowerShell",
+		"commandline": "powershell.exe",
 		"snapOnInput" : true,
-		"padding": "10, 5, 0, 0",
-            	"hidden": false,
-			"fontFace": "Consolas",
-			"fontSize": 10,
-			"colorScheme": "Cobalt2",
-			"cursorColor": "#839496"
-			
-        },
+		"padding": "10, 10, 10, 10",
+		"hidden": false,
+		"fontFace": "Consolas",
+		"fontSize": 10,
+		"colorScheme": "UbuntuLegit",
+		"cursorColor": "#839496"
+    },
 	{
-            	"guid": "{5b4ef9a8-4506-4ac9-930a-5eb1fd0ebf20}",
-            	"name": "Cmder",
-            	"commandline": "cmd.exe /k %CMDER_ROOT%/vendor/init.bat",
-           	"icon" : " %CMDER_ROOT%/icons/cmder.ico",
-           	"hidden": false,
-		"padding": "10, -10, 0, 0",
-            	"snapOnInput": true,
-			"fontFace": "Inconsolata NF",
-			"fontSize" : 10,
-			"colorScheme": "OneLight",
-			"cursorColor": "#839496",
-            	"startingDirectory": "%USERPROFILE%"
-        },
- 	{
-        	"guid": "{00000000-0000-0000-ba54-000000000002}",
-        	"acrylicOpacity" : 0.75,
-        	"closeOnExit" : true,
-        	"colorScheme" : "Campbell",
-        	"commandline" : "C:\\Program Files\\Git\\bin\\bash.exe",
-        	"cursorColor" : "#FFFFFF",
-        	"cursorShape" : "bar",
-        	"historySize" : 9001,
-        	"icon" : "C:\\Program Files\\Git\\mingw64\\share\\git\\git-for-windows.ico",
-        	"name" : "Bash",
-        	"padding" : "10, -10, 0, 0",
-        	"snapOnInput" : true,
-        	"startingDirectory" : "%USERPROFILE%",
-        	"useAcrylic" : true,
-			"fontFace": "Inconsolata NF",
-			"fontSize" : 10,
-			"colorScheme": "UbuntuLegit",
-			"cursorColor": "#839496"
-    	},
+		"guid": "{5b4ef9a8-4506-4ac9-930a-5eb1fd0ebf20}",
+		"name": "Cmder",
+		"commandline": "cmd.exe /k %CMDER_ROOT%/vendor/init.bat",
+		"icon" : " %CMDER_ROOT%/icons/cmder.ico",
+		"hidden": false,
+		"padding": "10, 10, 10, 10",
+		"snapOnInput": true,
+		"fontFace": "Inconsolata NF",
+		"fontSize" : 10,
+		"colorScheme": "OneLight",
+		"cursorColor": "#839496",
+		"startingDirectory": "%USERPROFILE%"
+    },
 	{
-            	"guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
-            	"name": "cmd",
-            	"commandline": "cmd.exe",
-            	"hidden": false,
-			"fontFace": "Inconsolata NF",
-			"fontSize": 10,
-			"colorScheme": "Cobalt2",
-			"cursorColor": "#839496",
-			"cursorBlinking": "solid"
-        },
-        {
-            	"guid": "{b453ae62-4e3d-5e58-b989-0a998ec441b8}",
-            	"hidden": true,
-            	"name": "Azure Cloud Shell",
-            	"source": "Windows.Terminal.Azure"
-        },
-        {
-           	"guid": "{c6eaf9f4-32a7-5fdc-b5cf-066e8a4b1e40}",
-            	"hidden": true,
-            	"name": "Ubuntu-18.04",
-            	"source": "Windows.Terminal.Wsl"
-        }
+		"guid": "{00000000-0000-0000-ba54-000000000002}",
+		"acrylicOpacity" : 0.75,
+		"closeOnExit" : true,
+		"colorScheme": "Cobalt2",
+		"commandline" : "C:\\Program Files\\Git\\bin\\bash.exe",
+		"cursorColor" : "#FFFFFF",
+		"cursorShape" : "bar",
+		"historySize" : 9001,
+		"icon" : "C:\\Program Files\\Git\\mingw64\\share\\git\\git-for-windows.ico",
+		"name" : "Bash",
+		"padding": "10, 5, 10, 10",
+		"snapOnInput" : true,
+		"startingDirectory" : "%USERPROFILE%",
+		"useAcrylic" : true,
+		"fontFace": "Inconsolata NF",
+		"fontSize" : 10,
+		"cursorColor": "#839496"
+    },
+	{
+		"guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
+		"name": "cmd",
+		"padding": "10, 10, 10, 10",
+		"commandline": "cmd.exe",
+		"hidden": false,
+		"fontFace": "Inconsolata NF",
+		"fontSize": 10,
+		"colorScheme": "Cobalt2",
+		"cursorColor": "#839496",
+		"cursorBlinking": "solid"
+    },
+    {
+		"guid": "{b453ae62-4e3d-5e58-b989-0a998ec441b8}",
+		"hidden": true,
+		"name": "Azure Cloud Shell",
+		"source": "Windows.Terminal.Azure"
+	},
+	{
+		"guid": "{c6eaf9f4-32a7-5fdc-b5cf-066e8a4b1e40}",
+		"hidden": true,
+		"name": "Ubuntu-18.04",
+		"source": "Windows.Terminal.Wsl"
+    }
     ],
 
     "schemes": [
 	{
-            	"name": "OneDark",
-            	"black": "#1e2127",
-            	"red": "#e06c75",
-            	"green": "#98c379",
-            	"yellow": "#d19a66",
-            	"blue": "#61afef",
-            	"purple": "#c678dd",
-            	"cyan": "#56b6c2",
-            	"white": "#abb2bf",
-            	"brightBlack": "#5c6370",
-            	"brightRed": "#e06c75",
-            	"brightGreen": "#98c379",
-            	"brightYellow": "#d19a66",
-            	"brightBlue": "#61afef",
-            	"brightPurple": "#c678dd",
-            	"brightCyan": "#56b6c2",
-            	"brightWhite": "#ffffff",
-            	"background": "#1e2127",
-            	"foreground": "#abb2bf",
-            	"cursorColor": "#aaaaaa"
+		"name": "OneDark",
+		"black": "#1e2127",
+		"red": "#e06c75",
+		"green": "#98c379",
+		"yellow": "#d19a66",
+		"blue": "#61afef",
+		"purple": "#c678dd",
+		"cyan": "#56b6c2",
+		"white": "#abb2bf",
+		"brightBlack": "#5c6370",
+		"brightRed": "#e06c75",
+		"brightGreen": "#98c379",
+		"brightYellow": "#d19a66",
+		"brightBlue": "#61afef",
+		"brightPurple": "#c678dd",
+		"brightCyan": "#56b6c2",
+		"brightWhite": "#ffffff",
+		"background": "#1e2127",
+		"foreground": "#abb2bf",
+		"cursorColor": "#aaaaaa"
 	},
 	{
-            	"name": "OneLight",
-           	"black": "#000000",
-            	"red": "#de3e35",
-            	"green": "#3f953a",
-            	"yellow": "#d2b67c",
-            	"blue": "#2f5af3",
-            	"purple": "#950095",
-            	"cyan": "#3f953a",
-            	"white": "#bbbbbb",
-            	"brightBlack": "#000000",
-            	"brightRed": "#de3e35",
-            	"brightGreen": "#3f953a",
-            	"brightYellow": "#44B4CC",
-            	"brightBlue": "#2f5af3",
-            	"brightPurple": "#a00095",
-            	"brightCyan": "#3f953a",
-            	"brightWhite": "#aaaaaa",
-            	"background": "#cccccc",
-           	"foreground": "#2a2c33",
-            	"cursorColor": "#000000"
+		"name": "OneLight",
+		"black": "#000000",
+		"red": "#de3e35",
+		"green": "#3f953a",
+		"yellow": "#d2b67c",
+		"blue": "#2f5af3",
+		"purple": "#950095",
+		"cyan": "#3f953a",
+		"white": "#bbbbbb",
+		"brightBlack": "#000000",
+		"brightRed": "#de3e35",
+		"brightGreen": "#3f953a",
+		"brightYellow": "#44B4CC",
+		"brightBlue": "#2f5af3",
+		"brightPurple": "#a00095",
+		"brightCyan": "#3f953a",
+		"brightWhite": "#aaaaaa",
+		"background": "#cccccc",
+		"foreground": "#2a2c33",
+		"cursorColor": "#000000"
 	},
 	{
-            	"name": "UbuntuLegit",
+		"name": "UbuntuLegit",
 		"background":  "#5e2750",
-            	"black":  "#4E9A06",
-            	"blue":  "#3465A4",
-           	"brightBlack":  "#555753",
-           	"brightBlue":  "#729FCF",
-           	"brightCyan":  "#34E2E2",
-           	"brightGreen":  "#8AE234",
-           	"brightPurple":  "#AD7FA8",
-            	"brightRed":  "#EF2929",
-            	"brightWhite":  "#EEEEEE",
-            	"brightYellow":  "#FCE94F",
-            	"cyan":  "#06989A",
-            	"foreground":  "#EEEEEE",
-            	"green":  "#300A24",
-            	"name":  "UbuntuLegit",
-            	"purple":  "#75507B",
-            	"red":  "#CC0000",
-            	"white":  "#D3D7CF",
-            	"yellow":  "#C4A000"
-        },	
+		"black":  "#4E9A06",
+		"blue":  "#3465A4",
+		"brightBlack":  "#555753",
+		"brightBlue":  "#729FCF",
+		"brightCyan":  "#34E2E2",
+		"brightGreen":  "#8AE234",
+		"brightPurple":  "#AD7FA8",
+		"brightRed":  "#EF2929",
+		"brightWhite":  "#EEEEEE",
+		"brightYellow":  "#FCE94F",
+		"cyan":  "#06989A",
+		"foreground":  "#EEEEEE",
+		"green":  "#300A24",
+		"name":  "UbuntuLegit",
+		"purple":  "#75507B",
+		"red":  "#CC0000",
+		"white":  "#D3D7CF",
+		"yellow":  "#C4A000"
+    },	
 	{
-                "name": "Cobalt2",
-        	"black": "#000000",
-                "red": "#ff0000",
-                "green": "#38de21",
-                "yellow": "#ffe50a",
-                "blue": "#1460d2",
-                "purple": "#ff005d",
-                "cyan": "#00bbbb",
-                "white": "#bbbbbb",
-                "brightBlack": "#555555",
-                "brightRed": "#f40e17",
-                "brightGreen": "#3bd01d",
-                "brightYellow": "#edc809",
-                "brightBlue": "#5555ff",
-                "brightPurple": "#ff55ff",
-                "brightCyan": "#6ae3fa",
-                "brightWhite": "#ffffff",
-                "background": "#132738",
-                "foreground": "#ffffff"
+		"name": "Cobalt2",
+		"black": "#000000",
+		"red": "#ff0000",
+		"green": "#38de21",
+		"yellow": "#ffe50a",
+		"blue": "#1460d2",
+		"purple": "#ff005d",
+		"cyan": "#00bbbb",
+		"white": "#bbbbbb",
+		"brightBlack": "#555555",
+		"brightRed": "#f40e17",
+		"brightGreen": "#3bd01d",
+		"brightYellow": "#edc809",
+		"brightBlue": "#5555ff",
+		"brightPurple": "#ff55ff",
+		"brightCyan": "#6ae3fa",
+		"brightWhite": "#ffffff",
+		"background": "#132738",
+		"foreground": "#ffffff"
 	},
 	{
 		"name": "Solarized Dark",
@@ -277,28 +276,30 @@
     // To unbind a default keybinding, set the command to "unbound"
     "keybindings": [
 	{
-                "command" : "closeTab",
-                "keys" : 
-                [
-                    "ctrl+w"
-                ]
-            },
-            {
-                "command" : "newTab",
-                "keys" : 
-                [
-                    "ctrl+t"
-                ]
-            },
+		"command" : "closeTab",
+		"keys" :
+		[
+			"ctrl+w"
+		]
+	},
+	{
+		"command" : "newTab",
+		"keys" :
+		[
+			"ctrl+t"
+		]
+	},
 	{
 		"command": "scrollDownPage",
-		"keys": [
+		"keys": 
+		[
 			"shift+pgdn"
 		]
 	},
 	{
 		"command": "scrollUpPage",
-		"keys": [
+		"keys":
+		[
 			"shift+pgup"
 		]
 	}
