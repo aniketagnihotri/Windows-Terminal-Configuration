@@ -8,6 +8,25 @@
 
     "profiles": [
 	{
+		"guid": "{00000000-0000-0000-ba54-000000000002}",
+		"acrylicOpacity" : 0.75,
+		"closeOnExit" : true,
+		"colorScheme": "Cobalt2",
+		"commandline" : "C:\\Program Files\\Git\\bin\\bash.exe",
+		"cursorColor" : "#FFFFFF",
+		"cursorShape" : "bar",
+		"historySize" : 9001,
+		"icon" : "C:\\Program Files\\Git\\mingw64\\share\\git\\git-for-windows.ico",
+		"name" : "Bash",
+		"padding": "10, 5, 10, 10",
+		"snapOnInput" : true,
+		"startingDirectory" : "%USERPROFILE%",
+		"useAcrylic" : true,
+		"fontFace": "Inconsolata NF",
+		"fontSize" : 10,
+		"cursorColor": "#839496"
+    },
+	{
 		"guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
 		"name": "Windows PowerShell",
 		"commandline": "powershell.exe",
@@ -32,25 +51,6 @@
 		"colorScheme": "OneLight",
 		"cursorColor": "#839496",
 		"startingDirectory": "%USERPROFILE%"
-    },
-	{
-		"guid": "{00000000-0000-0000-ba54-000000000002}",
-		"acrylicOpacity" : 0.75,
-		"closeOnExit" : true,
-		"colorScheme": "Cobalt2",
-		"commandline" : "C:\\Program Files\\Git\\bin\\bash.exe",
-		"cursorColor" : "#FFFFFF",
-		"cursorShape" : "bar",
-		"historySize" : 9001,
-		"icon" : "C:\\Program Files\\Git\\mingw64\\share\\git\\git-for-windows.ico",
-		"name" : "Bash",
-		"padding": "10, 5, 10, 10",
-		"snapOnInput" : true,
-		"startingDirectory" : "%USERPROFILE%",
-		"useAcrylic" : true,
-		"fontFace": "Inconsolata NF",
-		"fontSize" : 10,
-		"cursorColor": "#839496"
     },
 	{
 		"guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
